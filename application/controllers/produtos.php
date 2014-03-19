@@ -6,7 +6,7 @@ class Produtos extends CI_Controller {
 	{
 		//$this->output->enable_profiler(TRUE);
 		
-		$this->load->model("produtos_model");
+	$this->load->model("produtos_model");
         $produtos = $this->produtos_model->buscaTodos();
 
         $dados = array("produtos" => $produtos);
