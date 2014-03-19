@@ -4,7 +4,7 @@ class Produtos extends CI_Controller {
 	
 	public function index()
 	{
-		//$this->output->enable_profiler(TRUE);
+	//$this->output->enable_profiler(TRUE);
 		
 	$this->load->model("produtos_model");
         $produtos = $this->produtos_model->buscaTodos();
